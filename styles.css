@@ -1,0 +1,20 @@
+body {
+  background-color: aqua;
+}
+header {
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  width: 20%;
+  display: inline;
+}
+.top-search {
+  width: 60%;
+  display: inline;
+}
+.top-right-icon {
+  width: 20%;
+  display: inline;
+}
