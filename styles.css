@@ -1,6 +1,92 @@
-body {
-  background-color: aqua;
+html, body {
+  height: 100%;
 }
+
+header {
+  margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f4f4f4
+}
+
+nav {
+  display: flex;
+  flex: 1
+}
+
+
+.logo {
+  margin-left: 1.3em;
+  font-size: 25px;
+}
+
+.fa-search, .fa-bars {
+  font-size: 25px;
+}
+
+.fa-bars {
+  padding: 5px;
+  border: 1px solid transparent;
+  color: #ccc;
+}
+
+.fa-bars:hover {
+  border: 1px solid red;
+}
+
+.top-search {
+  flex: 2
+}
+
+.top-right-icon {
+  flex: 2 1 auto
+}
+
+.top-search > input{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .header {
   width: 100%;
   display: flex;
@@ -31,7 +117,7 @@ input{
   display: inline;
 }
 .menu{
-  display: inline;
+  display: none;
 }
 
 li{
@@ -41,4 +127,16 @@ li{
 ul{
   display: inline;
 }
+.fa-search, .fa-bars, .fa-youtube-play {
+  font-size: 25px;
+}
 
+.fa-bars {
+  padding: 5px;
+  border: 1px solid transparent;
+  color: #f3f3f3;
+}
+
+.fa-bars:hover {
+  border: 1px solid red;
+} */
