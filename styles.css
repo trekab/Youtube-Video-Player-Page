@@ -1,18 +1,56 @@
-*{
-  border: 1px solid black;
+.header {
+  margin: 30px 15px;
 }
 
-html, body{
-  width: 100%;
+.logo {
+  width: 25%;
+  float: left;
 }
+
+.logo img, .logo svg {
+  width: auto;
+  float: left;
+  margin: 0 1.5%;
+}
+
+.search {
+  width: 50%;
+  float: left;
+}
+
+.search input {
+  width: 80%;
+  padding: 7px;
+}
+
+.search svg {
+  position: absolute;
+  padding:0.9px;
+  background-color: #F8F8F8;
+}
+
+.social {
+  float: left;
+}
+.social svg{
+  width: 25%;
+}
+
+.social button{
+  float: right;
+}
+
 
 main{
+  float: left;
   width: 80%;
+  background-color: aquamarine
 }
 
 aside{
-  width: 20%;
   float: right;
+  width: 20%;
+  background-color: blueviolet;
 }
 
 .content{
