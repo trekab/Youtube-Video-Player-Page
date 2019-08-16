@@ -61,3 +61,8 @@ iframe{
 	width: 100%; 
 	height: 500px;
 }
+
+.thumbnails span{
+	float: right;
+	margin: 10px;
+}
