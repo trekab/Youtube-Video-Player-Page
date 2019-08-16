@@ -30,10 +30,10 @@
 }
 
 .social {
-  float: left;
+  float: right;
 }
 .social svg{
-  width: 25%;
+  margin-right: 20px;
 }
 
 .social button{
@@ -43,16 +43,21 @@
 
 main{
   float: left;
-  width: 80%;
+  width: 70%;
   background-color: aquamarine
 }
 
 aside{
   float: right;
-  width: 20%;
+  width: 30%;
   background-color: blueviolet;
 }
 
 .content{
   width: 100%;
+}
+
+iframe{
+	width: 100%; 
+	height: 500px;
 }
