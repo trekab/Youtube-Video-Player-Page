@@ -1,21 +1,35 @@
-.header {
-  margin: 30px 15px;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .logo {
-  width: 25%;
-  float: left;
+  display: inline-block;
+  width: 20%;
 }
 
 .logo img, .logo svg {
-  width: auto;
-  float: left;
-  margin: 0 1.5%;
 }
 
 .search {
-  width: 50%;
-  float: left;
+  display: inline-block;
+  width: 60%;
+  margin: 15px 0;
 }
 
 .search input {
@@ -23,42 +37,70 @@
   padding: 7px;
 }
 
-.search svg {
+.search img {
   position: absolute;
-  padding:0.9px;
-  background-color: #F8F8F8;
 }
 
 .social {
-  float: right;
-}
-.social svg{
-  margin-right: 20px;
+  display: inline-block;
+  width: 20%;
 }
 
-.social button{
+.social button {
   float: right;
 }
 
 
 main{
-  float: left;
+  /* float: left; */
+  display: inline-block;
   width: 70%;
-  background-color: aquamarine
+  /* background-color: aquamarine; */
 }
 
 aside{
   float: right;
-  width: 30%;
+  width: 29.5%;
   background-color: blueviolet;
 }
 
-.content{
-  width: 100%;
+.bar-menu {
+  width: 1.3em;
+  margin-right: 15px;
+}
+
+.upload {
+  width: 1.3em;
+  margin-right: 15px;
+  position: relative;
+  left: 90px;
+}
+
+.youtube-logo {
+  width: 90px;
+  /* margin-right: 1em; */
+}
+
+ul li {
+  display: inline-block;
+}
+.video-stats {
+  position: relative;
+}
+
+.video-stats ul {
+  position: absolute;
+  right: 0;
+  top: -15px;
+}
+
+.search-icon {
+  width: 35px;
+  padding: 5px;
 }
 
 iframe{
-	width: 100%; 
+	width: 100%;
 	height: 500px;
 }
 
