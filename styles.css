@@ -61,7 +61,6 @@ main{
 aside{
   float: right;
   width: 29.5%;
-  background-color: blueviolet;
 }
 
 .bar-menu {
@@ -107,4 +106,17 @@ iframe{
 .thumbnails span{
 	float: right;
 	margin: 10px;
+}
+
+.thumbnail-description{
+	float: right;
+}
+.thumbnail-description h4{
+	float: left;
+}
+
+
+.subscribe{
+	width: 100px;
+	float: right;
 }
