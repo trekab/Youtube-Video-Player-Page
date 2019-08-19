@@ -23,9 +23,6 @@
   width: 20%;
 }
 
-.logo img, .logo svg {
-}
-
 .search {
   display: inline-block;
   width: 60%;
@@ -65,10 +62,8 @@ header {
 
 
 .mainSection{
-  /* float: left; */
   display: inline-block;
   width: 70%;
-  /* background-color: aquamarine; */
 }
 
 aside{
@@ -91,7 +86,6 @@ aside{
 
 .youtube-logo {
   width: 90px;
-  /* margin-right: 1em; */
 }
 
 ul li {
@@ -109,7 +103,6 @@ ul li {
 
 .search-icon {
   width: 33px;
-  /* background-color: #F0F0F0; */
   padding: 8px;
 }
 
