@@ -14,7 +14,7 @@
 }
 
 .content {
-  margin: 0 auto;
+  margin: 25px auto;
   width: 80%;
 }
 
@@ -35,10 +35,16 @@
 .search input {
   width: 80%;
   padding: 7px;
+  border: 1.5px solid #EFEFEF;
+}
+hr {
+  border: 1px solid #EFEFEF;
+  margin: 25px 0;
 }
 
 .search img {
   position: absolute;
+  /* padding: 5px; */
 }
 
 .social {
@@ -48,6 +54,12 @@
 
 .social button {
   float: right;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
 }
 
 
@@ -61,6 +73,7 @@ main{
 aside{
   float: right;
   width: 29.5%;
+  padding: 0 25px;
 }
 
 .bar-menu {
@@ -94,8 +107,9 @@ ul li {
 }
 
 .search-icon {
-  width: 35px;
-  padding: 5px;
+  width: 33px;
+  background-color: #F0F0F0;
+  padding: 8px;
 }
 
 iframe{
@@ -109,10 +123,16 @@ iframe{
 }
 
 .thumbnail-description{
-	float: right;
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+	margin: 0 7px;
+	/* font-stretch: condensed; */
+	/* text-combine-upright: all; */
 }
 .thumbnail-description h4{
-	float: left;
+	/* margin-bottom: 10px; */
+	/* float: left; */
 }
 
 
