@@ -8,4 +8,5 @@
 ### Project Goal
 This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-
+### Link to the live demo
+https://trekab.github.io/Youtube-Video-Player-Page/
