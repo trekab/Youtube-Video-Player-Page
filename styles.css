@@ -63,7 +63,7 @@ header {
 }
 
 
-main{
+.mainSection{
   /* float: left; */
   display: inline-block;
   width: 70%;
